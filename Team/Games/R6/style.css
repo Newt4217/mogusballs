@@ -34,5 +34,5 @@
     background-repeat: no-repeat,no-repeat;
   background-attachment: fixed,fixed;
   background-position: left top, right top;
-  background-size: 100% 50%, 100% 50%;
+  background-size: 50% 100%, 50% 100%;
 }
