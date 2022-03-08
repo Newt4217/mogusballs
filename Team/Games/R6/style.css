@@ -35,4 +35,5 @@
   background-attachment: fixed,fixed;
   background-position: left top, right top;
   background-size: 50% 100%, 50% 100%;
+  background-origin: content-box, content-box;
 }
