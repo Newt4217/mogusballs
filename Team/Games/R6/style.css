@@ -31,7 +31,8 @@
 
 .bgimg{
   background-image:url(bgr6_01.jpg),url(bgr6_02.jpg);
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 50%;
+    background-repeat: no-repeat,no-repeat;
+  background-attachment: fixed,fixed;
+  background-position: left top, right top;
+  background-size: 100% 50%, 100% 50%;
 }
