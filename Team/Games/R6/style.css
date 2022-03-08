@@ -32,4 +32,7 @@
 .bgimg{
   background-image:url(bgr6_01.jpg),url(bgr6_02.jpg);
 background-color:#c3c1c2;background-repeat:no-repeat;background-position:top left,top right;height:auto}
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
 
+.playersBgHelper{height:auto;text-align:center;padding-bottom:27px;padding-left:0;padding-right:0;overflow-x:auto}
+.players{display:inline-block;margin:0;padding:0}.players li{list-style:none;float:left;margin-left:5px;margin-right:5px;width:169px}.league-twitter{text-align:center;margin:-7px auto}.league-twitter img{width:826px;height:69px}#games_menu li a,.players a{text-decoration:none;font-family:roboto;font-weight:700}.players a{color:#323232;line-height:50px}
