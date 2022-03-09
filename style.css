@@ -24,5 +24,7 @@
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+.topnav a.mogu {
   padding: 0px 0px;
 }
