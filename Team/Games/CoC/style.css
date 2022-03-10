@@ -45,3 +45,35 @@ background-color:#c3c1c2;background-repeat:no-repeat;background-position:top lef
 .progamer:hover {
         background: url("Progamer.jpg") no-repeat;
     }
+.Messi{
+  width: 169px;
+        height: 516px;
+        background: url("mystery.jpg") no-repeat;
+}
+.Messi:hover {
+        background: url("Messi.jpg") no-repeat;
+    }
+.RG8{
+  width: 169px;
+        height: 516px;
+        background: url("mystery.jpg") no-repeat;
+}
+.RG8:hover {
+        background: url("RG8.jpg") no-repeat;
+    }
+.Akira{
+  width: 169px;
+        height: 516px;
+        background: url("mystery.jpg") no-repeat;
+}
+.Akira:hover {
+        background: url("Akira.jpg") no-repeat;
+    }
+.Ofenkartoffel33{
+  width: 169px;
+        height: 516px;
+        background: url("mystery.jpg") no-repeat;
+}
+.Ofenkartoffel33:hover {
+        background: url("Ofenkartoffel33.jpg") no-repeat;
+    }
