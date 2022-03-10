@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-family: "Courier New";
+    font-size: 200px;
+    margin-top: 20%;
+    text-align: center;
+    color: #fff;
+}
+
+#firstText {
+    font-family: "Courier New";
+    font-size:70px;
+    text-align: center;
+    color: #fff;
+    margin-top: 25%;
+    margin-bottom: 22%;
+}
+
+#link {
+    color:#fff;
+}

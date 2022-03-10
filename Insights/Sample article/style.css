@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-family: "Times New Roman";
+    margin-left: 25%;
+    max-width: 50%;
+    margin-top: 7%;
+    color: #fff;
+    font-size: 400%;
+}
+
+#info {
+    font-family: "Courier New";
+    margin-top: 10px; 
+    color: rgba(114, 114, 114, 0.74); 
+    font-size: 120%; 
+    margin-left: 25%; 
+    margin-bottom: 3%;
+}
+
+#userlink {
+    color: rgba(114, 114, 114, 0.74);
+    text-decoration: none;
+}
+
+#userlink:hover {
+    color: #fff;
+}
+
+#textbody {
+    font-family: "Times New Roman";
+    max-width: 50%;
+    margin-left: 25%;
+    color: #fff;
+    font-size: 150%;
+}
+
+#nav {
+    font-family: "Courier New";
+    color: #fff;
+    font-size: 50px;
+    margin-top: 400px;
+    position: fixed;
+}
+
+#navlink {
+    display: inline-block;
+    width: 190px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navlink:hover {
+    color:black;
+    background-color: white;
+}
