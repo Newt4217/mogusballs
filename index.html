@@ -5,9 +5,29 @@
 	   <title>mogus</title>
 	  <link rel="stylesheet" href="style.css" type="text/css">
 	  <meta name="description" content="el Mogus del Mogus" />
+	  <script>
+		function init() {
+			if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+				document.body.style.backgroundColor = "black";
+				document.body.style.color = "white";
+				document.getElementById("mogu").src="mogusballsd.png";
+			};
+		};
+		function toggledarkmode() {
+		  if (document.body.style.backgroundColor == "black") {
+			document.body.style.backgroundColor = "white";
+			document.body.style.color = "black";
+			document.getElementById("mogu").src="mogusballs.png";
+		  } else {
+			document.body.style.backgroundColor = "black";
+			document.body.style.color = "white";
+			document.getElementById("mogu").src="mogusballsd.png";
+		  };
+		}
+	  </script>
  <meta http-equiv='refresh' content='30; URL=https://bit.ly/ObamaClearvid'>
  </head>
-  <body>
+  <body onload="init()">
     <div class="topnav">
  	 <a class="mogu active" href="https://mogusballs.com/"><img src="https://mogusballs.com/mogusclean_smol.png" alt="homeicon" width="50" height="50"></a>
 	 <a href="https://mogusballs.com/Organization/">Our Organization</a>
@@ -15,7 +35,8 @@
 	<a href="https://standwithukraine.com.ua/donation/crypto">Putin</a>
 	<a href="https://mogusballs.com/StandWithUkraine/">Stand With Ukraine!</a>
 	<a href="https://mogusballs.com/Insights/">Insights</a>
+	<a style="float:right;text-align: right" onclick="toggledarkmode()">toggle</a>
     </div>
-
-    <a href="https://bit.ly/ObamaClearvid"><img src="mogusballs.png" alt="mogus"></a>
+  
+    <a href="https://bit.ly/ObamaClearvid"><img src="mogusballs.png" alt="mogus" id="mogu"></a><br>
 </body>
