@@ -61,3 +61,11 @@ background-color:#c3c1c2;background-repeat:no-repeat;background-position:top lef
 .RG8:hover {
         background: url("RG8pjskcrop.jpg") no-repeat;
     }
+.Mrredslime{
+  width: 169px;
+        height: 516px;
+        background: url("mystery.jpg") no-repeat;
+}
+.Mrredslime:hover {
+        background: url("mrredslimepjskcrop.jpg") no-repeat;
+    }
