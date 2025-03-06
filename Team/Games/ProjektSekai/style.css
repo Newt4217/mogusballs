@@ -67,5 +67,13 @@ background-color:#c3c1c2;background-repeat:no-repeat;background-position:top lef
         background: url("mystery.jpg") no-repeat;
 }
 .Mrredslime:hover {
-        background: url("mrredslimepjskcrop.jpg") no-repeat;
+        background: url("Mrredslimepjskcrop.jpg") no-repeat;
+    }
+.Jalet{
+  width: 169px;
+        height: 516px;
+        background: url("mystery.jpg") no-repeat;
+}
+.Jalet:hover {
+        background: url("Jaletpjskcrop.jpg") no-repeat;
     }
